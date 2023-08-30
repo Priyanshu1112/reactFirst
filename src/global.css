@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    background: rgb(227, 249, 241);
+}
+
+ul{
+    background-color: #efe9e9;
+}
+
+li{
+    border-bottom: 1px solid white;
+    min-width: fit-content;
+    display: inline-block;
+    padding: 1vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: nowrap;
+}
+
+li span span{
+    cursor: pointer;
+}
